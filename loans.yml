@@ -1,0 +1,34 @@
+#server:
+#  port: 8090
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password: ''
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  config:
+#    import:
+#      - "loans-qa.yml"
+#      - "loans-prod.yml"
+#  profiles:
+#    active:
+#      - "qa"
+
+build:
+  version: "3.0"
+
+loan:
+  message: "welcome to the GeoBank related Apis"
+  contactDetails:
+    name: "Elijah Oladapo"
+    email: "toktogift@gmail.com"
+  onCallSupport:
+    - (+234) 814 7014 759

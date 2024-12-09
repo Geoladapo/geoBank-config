@@ -1,0 +1,15 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+loan:
+  message: "Welcome to GeoBank cards related QA Apis"
+  contactDetails:
+    name: "Elijah Oladapo"
+    email: "toktogift@gmail.com"
+  onCallSupport:
+    - (+234) 814 7014 759
